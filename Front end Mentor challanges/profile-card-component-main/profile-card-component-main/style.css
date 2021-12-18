@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container .bg-image{
+    width: 300px;
+    top:0;
+    left: 0;
+    display: none;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 1em ;
+}
+.container .card .card-img{
+    border-radius: 1em 1em 0 0;
+}
+.container .card .card-profile-img img{
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -2.5em;
+    margin-bottom: 0.5em;
+}
+.container .card .card-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .card .card-texts .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.container .card .card-texts .title .title-name{
+    margin-right: 0.5em;
+}
+
+.container .card .card-texts .title .title-number{
+    opacity: 0.5;
+}
+
+.container .card .card-texts .city{
+    margin-top: 5px;
+    margin-bottom: 2em;
+    opacity: 0.5;
+}
+
+
+
+.container .card .datas{
+    display: flex;
+    flex-direction: row;
+   
+    
+
+}
+
+.container .card .datas .data{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px;
+}
+.container .card .datas .data .data-number{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.container .card .datas .data .data-name{
+    opacity: 0.5;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(225, 67%, 1%);
+}
+
+
+
+@media  screen and (max-width:375px) {
+    .container{
+
+    }
+    
+}

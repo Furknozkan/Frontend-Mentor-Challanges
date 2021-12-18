@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.bg{
+    background-color: linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+}
+.bg-image{
+    display: flex;
+}
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}

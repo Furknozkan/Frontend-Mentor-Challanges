@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 16px;
+    text-align: center;
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   padding: 5rem;
+}
+.card{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 7px;
+    background-color:  hsl(216, 50%, 20%);
+}
+.container .card .image img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    max-width: 13rem;
+}
+
+.container .card .text .title{
+  display: flex;
+  align-items: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+
+.container .card .text .content{
+    color: #fff;
+    margin-top: 1rem;
+    max-width: 15rem;
+    text-align: left;
+    margin-left: 1rem;
+    opacity: 0.6;
+}
+
+.container .card .bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container .card .bar .price{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: hsl(178, 100%, 50%);
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+.container .card .bar .price .price-text{
+    margin-left: 0.5rem;
+}
+
+
+
+.container .card .bar .remainingTime{
+    display: flex;
+    margin-top: 1rem;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.container .card .bar .remainingTime .ethereum{
+    margin-right: 0.5rem;
+
+}
+
+.creater{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.creater .avatar img{
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 2.5rem;
+}
+
+
+
+.creater .creater-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(215, 51%, 70%);
+}
+.creater .creater-text .name{
+    color: #fff;
+    margin-left: 0.4rem;
+}
+
+/* attribution */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width:375px) {
+      body {
+          font-size: 11px;
+      }
+      
+  }
